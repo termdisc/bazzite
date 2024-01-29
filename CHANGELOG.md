@@ -1,5 +1,71 @@
 # Changelog
 
+## [2.3.0](https://github.com/ublue-os/bazzite/compare/v2.2.0...v2.3.0) (2024-01-29)
+
+
+### Features
+
+* Add auto updating for some CSS Loader themes not on the official store with topgrade ([d7c5e52](https://github.com/ublue-os/bazzite/commit/d7c5e52c9aab84d11e8f4143e92cdaadf787748b))
+* Add automatic nested desktop resolution handling for a number of handhelds. ([668eb07](https://github.com/ublue-os/bazzite/commit/668eb07187203f3bba0ea9ed3222c0c26eb17173))
+* Add BoxBuddy to Bazzite Portal ([16b3eaf](https://github.com/ublue-os/bazzite/commit/16b3eafdc97c6b13040b40a4d24c95eaa5dfac9f))
+* Add HHD support for GPD Win Mini & GPD Max 2 ([e347c5a](https://github.com/ublue-os/bazzite/commit/e347c5af8a8e298d62b6e5bea205e91b659ca139))
+* Add HHD to GPD Win 4 ([661160d](https://github.com/ublue-os/bazzite/commit/661160d5c899ab93b42cd127ff40994e1dfbe426))
+* Add MOTD thanks to [@bsherman](https://github.com/bsherman) and [@castrojo](https://github.com/castrojo) ([#717](https://github.com/ublue-os/bazzite/issues/717)) ([674fc08](https://github.com/ublue-os/bazzite/commit/674fc08a5eeb2a92317a56c441c487ba3b8c6e35))
+* Add support for AIR Plus ([155f6f5](https://github.com/ublue-os/bazzite/commit/155f6f59e436ac151940aacd4c7d560a5b7b41a3))
+* Add support for ayn-platform driver ([33592d3](https://github.com/ublue-os/bazzite/commit/33592d35389243352a8a3aad3fe53945678d3bc0))
+* Add support for REALTEK RTL8814AU devices ([cb91d9f](https://github.com/ublue-os/bazzite/commit/cb91d9f02cb16230ace989212346557b3932f821))
+* Add support for REALTEK RTLXXAU devices ([9a1c9d1](https://github.com/ublue-os/bazzite/commit/9a1c9d1e34b76e100d717197cc9b42670daaa696))
+* Add System Update application utilizing Topgrade ([dc95ca9](https://github.com/ublue-os/bazzite/commit/dc95ca98b65c1ac391fdac3d275388d2beef4f27))
+* Add topgrade for upgrades, this will be extended to take over updates moving forward ([2f5bb6a](https://github.com/ublue-os/bazzite/commit/2f5bb6abe4bad8825935f2d904181b54be476afc))
+* Allow MangoHUD config on all flatpaks automatically ([dd782c8](https://github.com/ublue-os/bazzite/commit/dd782c811387110bfecc25076e0a6fe02dda5c66))
+* Allow VkBasalt config on all flatpaks automatically ([221f8cb](https://github.com/ublue-os/bazzite/commit/221f8cb56b80c6bfb7fcfd7bc3a71600c44088c0))
+* **ally:** Add support for BMI323 gyro ([c803164](https://github.com/ublue-os/bazzite/commit/c8031649cdd6f4ebff5df8f3437776c95c3120c3))
+* **ci:** Introduce a stable tag ([#710](https://github.com/ublue-os/bazzite/issues/710)) ([c5a69fa](https://github.com/ublue-os/bazzite/commit/c5a69faba73ebcded7ea368043bf9b970e873c9d))
+* Clean up just file situation, use split deck/desktop just files with a single shared one ([0f0feea](https://github.com/ublue-os/bazzite/commit/0f0feea4c3a993c8d8ac00349a4daf947e09ba3f))
+* **deck:** Add BoxBuddy to Bazzite Portal ([c8475aa](https://github.com/ublue-os/bazzite/commit/c8475aa4f1cb1db15b15af2093d56a22d41917af))
+* **deck:** Add Loki Max to rotation fix script and nested desktop defaults ([df51d82](https://github.com/ublue-os/bazzite/commit/df51d82679950a86f2dc91d7b52271b177713ed1))
+* **deck:** Add ujust commands to install various themes needed by ROG Ally & Legion Go. ([d7c5e52](https://github.com/ublue-os/bazzite/commit/d7c5e52c9aab84d11e8f4143e92cdaadf787748b))
+* **deck:** Include BMI260 gyroscope driver ([c88af81](https://github.com/ublue-os/bazzite/commit/c88af8175f9e06ed4e162f4735aebcd1f9465ea7))
+* **gnome:** Remove Totem in favor of Celluloid ([#697](https://github.com/ublue-os/bazzite/issues/697)) ([7c4d2ac](https://github.com/ublue-os/bazzite/commit/7c4d2accac2609b00534af153bdb2c55d4189ab8))
+* **kde:** Add System Update to the default list of favorite applications ([f9614a0](https://github.com/ublue-os/bazzite/commit/f9614a032c4a15ededd843c11e02eb78fb56de26))
+* **legion:** Enable Steam Hardware Control when SimpleDeckyTDP is installed via ujust ([7827fb1](https://github.com/ublue-os/bazzite/commit/7827fb19f811fb9366e29c4ada294b6a3f3ab2f3))
+* **nvidia:** Default to x11 ([bd4d24a](https://github.com/ublue-os/bazzite/commit/bd4d24a574cf8ed878310284d4bb0f5b0877c439))
+* **nvidia:** Enable Supergfxctl extension by default under GNOME ([a26c0b5](https://github.com/ublue-os/bazzite/commit/a26c0b57266b8cc94d82cd7664fdd5710ca11560))
+* **nvidia:** Enable Supergfxctl extension by default under GNOME ([d936647](https://github.com/ublue-os/bazzite/commit/d9366472d63963a4a69db88bd9a5917a80e28e7f))
+* Support Incus OOTB ([7fb4d1d](https://github.com/ublue-os/bazzite/commit/7fb4d1d6e807309ae12e3892f0304d288326d437))
+* Switch from Zenpower3 to Zenergy ([33592d3](https://github.com/ublue-os/bazzite/commit/33592d35389243352a8a3aad3fe53945678d3bc0))
+* Switch to modified xone that retains full support for xpad, resolves issues with third party game controllers in previous releases. ([6f50817](https://github.com/ublue-os/bazzite/commit/6f50817806e1b85d60d4e6a6f66ed3b275200c45))
+* Switch to newer ublue-update powered by topgrade ([0c1c140](https://github.com/ublue-os/bazzite/commit/0c1c14062914ae8f8fcc61d616e468d5a9d12dad))
+* Use topgrade for ujust update ([97aeca6](https://github.com/ublue-os/bazzite/commit/97aeca6e1ba0b5a703f564e4dbae7d976013ce40))
+
+
+### Bug Fixes
+
+* Add a fix for LibreOffice flatpak to correct a printing bug ([9a22b18](https://github.com/ublue-os/bazzite/commit/9a22b180ac6c4bb695f83fda13fda091fadd2770))
+* Add a fix for LibreOffice flatpak to correct a printing bug ([660fa86](https://github.com/ublue-os/bazzite/commit/660fa86fa8dda91902af43797609f7e18bcfab14))
+* Add new just restructuring to the deck just file ([87bb7a3](https://github.com/ublue-os/bazzite/commit/87bb7a34b5d0c45d231c83443de8b3d66037d381))
+* **asus:** Ensure ROG GUI is installed. ([e43ff9e](https://github.com/ublue-os/bazzite/commit/e43ff9ee98d892001a94273c886614f206bc8f57))
+* Correct gamemode check in rotation fix ([6eb6f27](https://github.com/ublue-os/bazzite/commit/6eb6f271272c4b6bbdb0f2e598dadd7f12d8ef6d))
+* Create git repository if it doesn't already exist in Firefox/Thunderbird GNOME theme updater ([b123e28](https://github.com/ublue-os/bazzite/commit/b123e28d1685320d9025a2cfceb5cc0c2df827ef))
+* Create git repository if it doesn't already exist in Firefox/Thunderbird GNOME theme updater ([5303f00](https://github.com/ublue-os/bazzite/commit/5303f00abef85fe6c1ff139b25fd9840ac3c3d68))
+* **deck:** Add GPD Win 4 to rotation fix script ([695f68a](https://github.com/ublue-os/bazzite/commit/695f68a01e280f0a7d3b9d4f2920112f0f2b6a2a))
+* **deck:** Improve bazzite-rotation-fix (Thanks Aru!) ([898a70e](https://github.com/ublue-os/bazzite/commit/898a70e061f470e1487dc390e9f016788f9ac985))
+* Disable container update in topgrade, solves issue with topgrade needlessly starting containers. Does not affect Distrobox. ([b97f10b](https://github.com/ublue-os/bazzite/commit/b97f10b613f9c1f24b31e504da14497bb8d97823))
+* Disable negativo17 before installing xone ([e725c0f](https://github.com/ublue-os/bazzite/commit/e725c0f817419e9e762248bd7ee76c0658a69ce8))
+* Disable negativo17 before installing xone ([c5a532e](https://github.com/ublue-os/bazzite/commit/c5a532e3ad4ef508283425b6362c6abb11118789))
+* Enable dri permission for XIV Launcher by default ([19e6a93](https://github.com/ublue-os/bazzite/commit/19e6a93ce8b9e6aa0ebc17129d644318d26a427c))
+* Escape special characters in motd script ([7ed7e7f](https://github.com/ublue-os/bazzite/commit/7ed7e7fe7352357fc8a0ad86835f94d037a9f3cd))
+* Install nerd-fonts separately to ensure only our desired font is installed. ([4b31fb7](https://github.com/ublue-os/bazzite/commit/4b31fb7e46e461793ac4b6cdd216b186bf849978))
+* **kde:** Correct Nvidia install script using a different variable for the image name, corrects missing supergfxctl-plasmoid ([7b4a7ff](https://github.com/ublue-os/bazzite/commit/7b4a7fffc2f81c3d1c3ac3765fbab9adcc410c43))
+* **kde:** Remove Maliit keyboard from System Settings on deck builds ([3d1a272](https://github.com/ublue-os/bazzite/commit/3d1a27273ec50f2a519e33bb5fc1be97eb3e6849))
+* **legion:** Set panel orientation via karg to correct Plymouth rotation ([2fdd501](https://github.com/ublue-os/bazzite/commit/2fdd5014400062b8addc8fc975d2d2ce32a809e3))
+* Remove fontconfig change ([2898353](https://github.com/ublue-os/bazzite/commit/28983537eb362f91607cc23f1ab3d3cc9cd95f1c))
+* Replace fontconfig with newer version to resolve issues with flatpaks ([2c403bb](https://github.com/ublue-os/bazzite/commit/2c403bb0f19b23764ac5dd4953fc21469c988b44))
+* **steamos-update:** Properly read the return code of the upgrade command ([d6a5217](https://github.com/ublue-os/bazzite/commit/d6a5217798877b7e197952ce13588ab34c21dbf5))
+* **steamos-update:** Use double quotes to prevent potential globbing and word splitting ([cd56fe4](https://github.com/ublue-os/bazzite/commit/cd56fe49756349b893faf13cee545714269d7eb3))
+* Temporarily drop rtl8814au ([1f3baeb](https://github.com/ublue-os/bazzite/commit/1f3baebb28066c480b5679f70207791750bb99a5))
+* Use nightly RPM of sunshine until present elsewhere ([736d70e](https://github.com/ublue-os/bazzite/commit/736d70e30931352291f32239527264f06097d3df))
+
 ## 2.2.0 (2024-01-18)
 
 
